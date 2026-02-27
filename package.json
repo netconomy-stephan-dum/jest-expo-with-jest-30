@@ -1,0 +1,17 @@
+{
+  "name": "jest-expo-v30",
+  "version": "1.0.0",
+  "description": "show case jest-expo with jest v30 error",
+  "license": "ISC",
+  "author": "Stephan Dum",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "expo": "^55.0.3",
+    "jest-expo": "^55.0.9",
+    "jest": "^30.2.0"
+  }
+}

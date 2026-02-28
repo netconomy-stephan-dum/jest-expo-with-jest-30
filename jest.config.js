@@ -1,5 +1,7 @@
+const { dirname } = require('node:path');
+
 const config = {
-    preset: 'jest-expo'
+    preset: dirname(require.resolve('jest-expo/package.json')),
 };
 
 module.exports = config;
